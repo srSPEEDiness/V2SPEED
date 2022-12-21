@@ -1,9 +1,9 @@
+<p align="center">
+  <img src="https://github.com/srSPEEDiness/SPEEDSSH-PR0/blob/main/icone.jpg" height="400px"/>
+</p>
+<h2 align="center">✩░▒▓▆▅▃▂▁<b>VELOCIDADE E CONEXÃO</b>▁▂▃▅▆▓▒░✩</h2> 
+<br>
 
-\\\\ MOD POR @srSPEEDiness ////
-
-canal: t.me/scottsshd
-
-\\\\\\\\\\\ CREDITOS A 233BOY //////
 
 ### Instalar ou desinstalar
 Use o usuário root para digitar o seguinte comando para instalar ou desinstalar
@@ -13,7 +13,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/srSPEEDiness/V2SPEED/install
 ** Se o link acima não funcionar, você pode usar o seguinte método **
 ````
 git clone https://github.com/srSPEEDiness/V2SPEED.git -b main
-cd v2ray
+cd V2SPEED
 chmod +x install.sh
 ./install.sh local
 ````
@@ -163,3 +163,13 @@ O ícone da nuvem deve ser laranja, ou seja, DNS e proxy HTTP (CDN)
 Informações de configuração do V2Ray
 Muito bom, agora configure o cliente para usar
 Digite as informações do v2ray para visualizar a configuração do V2Ray. Se você usa alguns clientes V2Ray, pode configurá-lo e usá-lo de acordo com as informações de configuração fornecidas. teste agora
+
+
+[![Join Telegram Chat](https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=Telegram)](https://t.me/srSPEEDiness)
+
+[![Join WhatsApp Chat](https://img.shields.io/badge/Join-WhatsApp%20Group-bl.svg?logo=WhatsApp)](https://wa.me/5521976102205)
+
+\\\\\\\\\\\ CREDITOS A 233BOY //////
+
+<h2 align="center"><b>PRODUÇÃO<a href="https://t.me/srSPEEDiness"> SR SPEEDINESS</h3></b></a>
+</br>
