@@ -1010,14 +1010,14 @@ esac
 
 clear
 while :; do
-	figlet "V2SPEED-PRO" | lolcat
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%55s%s%-12s\n' "V2SPEED PRO @srSPEEDiness " ; tput sgr0
+	figlet "V2SPEED PRO" | lolcat
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%55s%s%-12s\n' "V2Ray PRO @srSPEEDiness " ; tput sgr0
 echo ""
 echo "Para Ativar o (V2RAY) é obrigatório que portas 80 e 443 estejam DESATIVADAS"
 echo -e "╔═══════════════•⊱✦⊰•═════════════════╗" | lolcat
 			echo ""
-       [ 01 ] Instalar V2SPEED PRO
-       [ 02 ] Desinstalar V2SPEED PRO
+       [ 01 ] Instalar V2Ray PRO
+       [ 02 ] Desinstalar V2Ray PRO
 			echo ""
 			echo -e
 			"╚═══════════════•⊱✦⊰•═════════════════╝" | lolcat
