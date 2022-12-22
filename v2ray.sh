@@ -2605,40 +2605,37 @@ _help() {
 menu() {
 	clear
 	while :; do
-		echo
-		echo "........... Script de administração do V2Ray $_version por 233v2.com ........."
-		echo
-		echo -e "## Versão do V2Ray: $cyan$v2ray_ver$none / status do V2Ray: $v2ray_status ##"
-		echo
-		echo "canal TG: https://t.me/ssh_t_project"
-		echo
-		echo "creditos: https://233v2.com/"
-		echo
-		echo -e "$yellow  1. $none Ver configuração do V2Ray"
-		echo
-		echo -e "$yellow  2. $none Modifique a configuração do V2Ray"
-		echo
-		echo -e "$yellow  3. $none Baixe a configuração do V2Ray / Gere o link de informações de configuração / Gere o link do código QR"
-		echo
-		echo -e "$yellow  4. $none Visualizar configuração do Shadowsocks / gerar links de código QR"
-		echo
-		echo -e "$yellow  5. $none Modifique a configuração do Shadowsocks"
-		echo
-		echo -e "$yellow  6. $none Visualizar configuração do MTProto/modificar configuração do MTProto"
-		echo
-		echo -e "$yellow  7. $none Ver configuração do Socks5 / Modificar configuração do Socks5"
-		echo
-		echo -e "$yellow  8. $none iniciar/parar/reiniciar/ver log"
-		echo
-		echo -e "$yellow  9. $none Atualizar V2Ray / Atualizar Script de Gerenciamento V2Ray"
-		echo
-		echo -e "$yellow 10. $none Desinstale o V2Ray"
-		echo
-		echo -e "$yellow 11. $none outro"
-		echo
-		echo -e "Lembrete... se você não quiser executar a opção... pressione $yellow Ctrl + C $none para sair"
-		echo
-		read -p "$(echo -e "Por favor, selecione um menu [${magenta}1-11$none]:")" choose
+echo -e "\033[0;36m
+                                                              
+          █████╗████╗ ████╗████╗████╗  ████╗████╗██╗  ██╗        
+          ██╔══╝██╔██╗██╔═╝██╔═╝██═██╗██╔══╝██╔═╝██║  ██║        
+          █████╗████╔╝███╗ ███╗ ██ ██║██║   ███╗ ██║  ██║        
+          ╚══██║██╔═╝ ██╔╝ ██╔╝ ██ ██║██║   ██╔╝ ██║  ██║        
+          █████║██║   ████╗████╗████╔╝╚████╗████╗████╗████╗      
+          ╚════╝╚═╝   ╚═══╝╚═══╝╚═══╝  ╚═══╝╚═══╝╚═══╝╚═══╝       \033[0m"
+echo -e "\033[0;36m╔═══════════════════════════════════════════════════════════════════════╗\033[0m"
+echo -e "\033[0;36m \E[2;47;31m          V E L O C I D A D E      E      C O N E X Ã O                \E[0m \033[1;31m"
+echo -e "\033[0;36m╠═══════════════════════════════════════════════════════════════════════╣\033[0m"
+echo -e "\033[0;36m║       \033[1;32m ## Versão do V2Ray: $cyan$v2ray_ver$none / status do V2Ray: $green (ON) $none ##              \033[0;36m║\033[0m"
+echo -e "\033[0;36m╠═══════════════════════════════════════════════════════════════════════╣\033[0m"
+echo -e "\033[0;36m║                                                                       \033[0;36m║ 
+\033[0;36m║   \033[0;31m[\033[1;36m01\033[0;31m] \033[1;37m• \033[1;37mVer configuração V2Ray\033[0;36m                                       ║ 
+\033[0;36m║\033[0;31m   [\033[1;36m02\033[0;31m] \033[1;37m• \033[1;37mModifique a configuração V2Ray\033[0;36m                               ║          
+\033[0;36m║\033[0;31m   [\033[1;36m03\033[0;31m] \033[1;37m\033[1;37m• \033[1;37mBaixar config V2Ray / Gerar link QR e INFO\033[0;36m                   ║         
+\033[0;36m║\033[0;31m   [\033[1;36m04\033[0;31m] \033[1;37m• \033[1;37mVisualizar config Shadowsocks / Gerar link QR\033[0;36m                ║
+\033[0;36m║\033[0;31m   [\033[1;36m05\033[0;31m] \033[1;37m• \033[1;37mModifique a config Shadowsocks\033[0;36m                               ║
+\033[0;36m║\033[0;31m   [\033[1;36m06\033[0;31m] \033[1;37m• \033[1;37mConfiguração MTProto\033[0;36m                                         ║
+\033[0;36m║\033[0;31m   [\033[1;36m07\033[0;31m] \033[1;37m• \033[1;37mConfiguração Socks5\033[0;36m                                          ║
+\033[0;36m║\033[0;31m   [\033[1;36m08\033[0;31m] \033[1;37m• \033[1;37mIniciar/parar/reiniciar/ver log\033[0;36m                              ║
+\033[0;36m║\033[0;31m   [\033[1;36m09\033[0;31m] \033[1;37m• \033[1;37mAtualizar V2Ray / Atualizar Script de Gerenciamento V2Ray\033[0;36m    ║
+\033[0;36m║\033[0;31m   [\033[1;36m10\033[0;31m] \033[1;37m• \033[1;37mDesinstale o V2Ray\033[0;36m                                           ║    
+\033[0;36m║\033[0;31m   [\033[1;36m11\033[0;31m] \033[1;37m• \033[1;37mOutro\033[0;36m                                                        ║  
+\033[0;36m║\033[0;31m                                                              \033[0;36m         ║ 
+\033[0;36m║\033[0;31m                                         Pressione $yellow Ctrl + C $none para sair\033[0;36m║ "
+echo -e "\033[0;36m╠═══════════════════════════════════════════════════════════════════════╝\033[0m"                  
+echo -e "\033[0;36m╚╣\033[1;37mPressione $yellow Ctrl + C $none para sair"
+echo -e "\033[0;36m ║\033[0;31m"
+read -p "$(echo -ne " \033[0;36m╚═════╣\033[1;32mESCOLHA OPÇÃO DESEJADA\033[1;33m\033[1;31m\033[1;37m : ")" choose
 		if [[ -z $choose ]]; then
 			exit 1
 		else
