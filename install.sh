@@ -1026,7 +1026,7 @@ echo -e "╚═══════════════•⊱✦⊰•══�
 		echo -e "$yellow Lembrete.. A instalação local está habilitada..$none"
 		echo
 	fi
-	read -p "$(echo -e "⊱ Escolha uma opção [\033[1;32m1\033[1;37m-\033[1;31m2\033[0m]:")" choose
+	read -p "$(echo -e "\033[1;32m⊱ Escolha uma opção [\033[1;32m1\033[1;37m-\033[1;31m2\033[0m]:\033[0;31m")" choose
 	case $choose in
 	1)
 		install
