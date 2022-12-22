@@ -1014,11 +1014,11 @@ while :; do
 tput setaf 7 ; tput setab 4 ; tput bold ; printf "                    V2SPEED PRO @srSPEEDiness                     " ; tput sgr0
 echo ""
 echo ""
-echo "Para Ativar o \033[0;31mV2SPEED\033[1;36m é obrigatório que portas 80 e 443 estejam DESATIVADAS"
+echo -e "Para Ativar o \033[1;37mV2SPEED\033[1;36m é obrigatório que portas 80 e 443 estejam DESATIVADAS"
 echo -e "╔═══════════════•⊱✦⊰•═════════════════╗" | lolcat
 echo -e "
-  \033[0;31m[\033[1;37m01\033[0;31m] \033[1;37mInstalar\033[0;31m \033[0;31mV2SPEED PRO\033[1;36m
-  \033[0;31m[\033[1;37m02\033[0;31m] \033[1;37mDesinstalar\033[0;31m \033[0;31mV2SPEED PRO\033[1;36m
+  \033[1;31m[\033[1;37m01\033[0;31m] \033[1;32mInstalar\033[0;31m \033[1;37mV2SPEED PRO\033[1;36m
+  \033[1;31m[\033[1;37m02\033[0;31m] \033[1;31mDesinstalar\033[0;31m \033[0;37mV2SPEED PRO\033[1;36m
           "
 echo -e "╚═══════════════•⊱✦⊰•═════════════════╝" | lolcat
 			echo ""
