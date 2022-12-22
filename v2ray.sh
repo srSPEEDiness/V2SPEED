@@ -2553,7 +2553,7 @@ error() {
 
 pause() {
 
-	read -rsp "$(echo -e "Pressione $green Digite $none para continuar... ou $red Ctrl + C $none para cancelar.")" -d $'\n'
+	read -rsp "$(echo -e "Pressione $green ENTER $none para continuar... ou $red Ctrl + C $none para cancelar.")" -d $'\n'
 	echo
 }
 do_service() {
