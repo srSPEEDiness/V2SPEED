@@ -2631,9 +2631,9 @@ echo -e "\033[0;36m║                                                          
 \033[0;36m║\033[0;31m   [\033[1;36m10\033[0;31m] \033[1;37m• \033[1;37mDesinstale o V2Ray\033[0;36m                                           ║    
 \033[0;36m║\033[0;31m   [\033[1;36m11\033[0;31m] \033[1;37m• \033[1;37mOutro\033[0;36m                                                        ║  
 \033[0;36m║\033[0;31m                                                              \033[0;36m         ║ 
-\033[0;36m║\033[0;31m                                         Pressione $yellow Ctrl + C $none para sair\033[0;36m║ "
+\033[0;36m║\033[0;31m                                         Pressione $yellow Ctrl + C $none \033[0;31mpara sair\033[0;36m║ "
 echo -e "\033[0;36m╠═══════════════════════════════════════════════════════════════════════╝\033[0m"                  
-echo -e "\033[0;36m╚╣\033[1;37mPressione $yellow Ctrl + C $none para sair"
+echo -e "\033[0;36m╚╣\033[1;37m"
 echo -e "\033[0;36m ║\033[0;31m"
 read -p "$(echo -ne " \033[0;36m╚═════╣\033[1;32mESCOLHA OPÇÃO DESEJADA\033[1;33m\033[1;31m\033[1;37m : ")" choose
 		if [[ -z $choose ]]; then
